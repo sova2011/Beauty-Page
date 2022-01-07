@@ -382,3 +382,102 @@ footer {
 .grid-item-catalog:hover {
     transform: scale(1.1);
 }
+
+.bg-green-item-tab {
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    .grid-item-left {
+        margin-bottom: 50px;
+    }
+    .map {
+        margin-bottom: 55px;
+        margin-top: -9px;
+        width: 150px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .title-h2 {
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .grid-item-catalog {
+        width: 47%;
+        text-align: center;
+    }
+    .grid-item-img {
+        display: none;
+    }
+    .grid-item-title {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .bg-green {
+        justify-content: space-evenly;
+        background: #66C05D;
+        padding: 15px 54px;
+        width: 100%;
+        margin-left: -59px;
+        margin-right: 189px;
+        margin-bottom: -182px;
+        flex-direction: row;
+        margin-top: -50px;
+    }
+    .bg-green-item-tab {
+        display: block;
+        margin-left: -69px;
+    }
+    #img {
+        display: none;
+    }
+    img {
+        display: none;
+    }
+    .grid-item-right {
+        display: none;
+    }
+    .bg-green-item {
+        margin: 1px;
+    }
+    .map {
+        margin-top: 32px;
+    }
+    .footer-top {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .social-item {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-top: -15px;
+    }
+    .footer-info span {
+        margin-top: 18px;
+        margin-left: 0;
+    }
+    .footer-info span:nth-child(2) {
+        margin-left: 64px;
+        margin-bottom: 25px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+    }
+}
